@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Code Generator - Your Intelligent Coding Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>CodeGenAI</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How it Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="auth-buttons">
+                <button class="login-btn">Log in</button>
+                <button class="signup-btn">Sign up</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Transform Your Coding Experience with AI</h1>
+                <p>Generate high-quality code instantly with our advanced AI-powered code generator. Save time, reduce errors, and focus on what matters most.</p>
+                <div class="cta-buttons">
+                    <button class="primary-btn">Try for Free</button>
+                    <button class="secondary-btn">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400" alt="AI Code Generation Demo">
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Why Choose Our AI Code Generator?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Lightning Fast</h3>
+                    <p>Generate code in seconds, not hours</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Multiple Languages</h3>
+                    <p>Support for all major programming languages</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure & Reliable</h3>
+                    <p>Enterprise-grade security and reliability</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Smart Learning</h3>
+                    <p>Adapts to your coding style and preferences</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Describe Your Needs</h3>
+                    <p>Simply describe what you want to build in natural language</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>AI Generation</h3>
+                    <p>Our AI analyzes your requirements and generates the code</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Review & Customize</h3>
+                    <p>Review the generated code and make any necessary adjustments</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="code-generator" class="code-generator">
+            <h2>Generate Code Instantly</h2>
+            <div class="generator-container">
+                <div class="input-section">
+                    <div class="form-group">
+                        <label for="language">Programming Language</label>
+                        <select id="language" name="language">
+                            <option value="javascript">JavaScript</option>
+                            <option value="python">Python</option>
+                            <option value="java">Java</option>
+                            <option value="csharp">C#</option>
+                            <option value="php">PHP</option>
+                            <option value="ruby">Ruby</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="prompt">Describe what you want to build</label>
+                        <textarea id="prompt" name="prompt" rows="6" placeholder="Describe your code requirements here..."></textarea>
+                    </div>
+                    <button id="generate-btn" class="primary-btn">Generate Code</button>
+                </div>
+                <div class="output-section">
+                    <div class="code-header">
+                        <h3>Generated Code</h3>
+                        <button id="copy-btn" class="secondary-btn">
+                            <i class="fas fa-copy"></i> Copy
+                        </button>
+                    </div>
+                    <pre id="code-output"><code>Your generated code will appear here...</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <h2>Simple, Transparent Pricing</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <p class="price">$0</p>
+                    <ul>
+                        <li>Basic code generation</li>
+                        <li>5 generations per day</li>
+                        <li>Community support</li>
+                    </ul>
+                    <button class="pricing-btn">Get Started</button>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <p class="price">$29/mo</p>
+                    <ul>
+                        <li>Advanced code generation</li>
+                        <li>Unlimited generations</li>
+                        <li>Priority support</li>
+                        <li>Custom templates</li>
+                    </ul>
+                    <button class="pricing-btn">Get Started</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <p class="price">Custom</p>
+                    <ul>
+                        <li>Custom solutions</li>
+                        <li>Dedicated support</li>
+                        <li>API access</li>
+                        <li>SLA guarantee</li>
+                    </ul>
+                    <button class="pricing-btn">Contact Sales</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>CodeGenAI</h4>
+                <p>Your intelligent coding assistant</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How it Works</a>
+                <a href="#pricing">Pricing</a>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <a href="#">Documentation</a>
+                <a href="#">API Reference</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CodeGenAI. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
